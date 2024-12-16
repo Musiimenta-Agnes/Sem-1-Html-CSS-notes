@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.form-container {
+background-color: darkmagenta;
+padding-left: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+width: 300px;
+border-radius: 18px;
+
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"]{
+border-radius: 20px;
+background-color: aqua;
+padding: 10px 10px;
+}
+.active:hover {
+    background-color: deeppink;
+}
+.active {
+    background-color: darkturquoise;
+    border-radius: 20px;
+}
+.active1 {
+    border-radius: 20px;
+    padding: 10px 80px;
+}
+
+lable[for="email"],
+lable[for="passward"]{
+    font-size: larger;
+    color: greenyellow;
+}
+.active2 {
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+
+</style>
+
+</head>
+<body>
+    <h1><b>MY PERSONAL INFORMATION</b></h1>
+    <Form>
+<fieldset>
+<legend>NAME</legend>
+<lable for="First Name">First Name</lable>
+<input type="text" id="First Name"> <BR><BR></BR></BR>
+<lable fro="Lname">Last Name</lable>
+<input type="text" id="Last Name">
+</fieldset><br><br><br>
+<fieldset>
+    <legend>EDUCATION BACKGROUND</legend>
+    <textarea cols="70" rows="20" class="active2">
+
+    </textarea>
+</fieldset>
+    </Form>
+
+    <h1><b>SECONCOND FORM</b></h1>
+    <div class="form-container">
+        <form>
+<button class="active1" style="background-color: darkgoldenrod;color: white;"> LOGIN HERE</button><br><br>
+<Llabe for="email">Email</Llabe>
+<input type="email" id="email"><br><br>
+<label for="password">Password</label>
+<input type="password" id="password"><br><br>
+<button type="submit" class="active">Submit</button><br><br>
+<input type="text" placeholder="Username">
+        </form>
+    </div>
+
+</body>
+</html>

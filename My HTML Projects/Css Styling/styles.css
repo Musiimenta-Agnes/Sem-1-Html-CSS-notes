@@ -1,0 +1,84 @@
+
+ 
+ .div1 {
+    color: brown;
+     
+}
+.div2 {
+  text-align: center;  
+
+}
+.img1 {
+
+    vertical-align: text-bottom;
+}
+
+.div3 {
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: dotted;
+    text-decoration-thickness: solid;
+    
+}
+
+.div4 {
+    text-indent: 30px;
+    word-spacing: 10px;
+    white-space: 20px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-shadow: 1px 2px;
+}
+.ul {
+    list-style-type: square;
+    color: darksalmon;
+
+}
+.ol {
+    list-style-type: upper-roman;
+    color: darkblue;
+}
+.div5 {
+    
+    display: inline;
+}
+.div6 {
+    position: static;
+    
+}
+.img2 {
+    position: absolute;
+    top: 2600px;
+    left: 70px;
+    z-index: -1;
+}
+
+.div8 {
+    text-align: center;
+overflow: auto;
+color: rgb(231, 59, 16);
+height: 70px;
+width: 200px;
+
+
+}
+
+a:hover {
+    color: crimson;
+}
+.social-icons {
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .social-icons i {
+    font-size: 20px;
+    color: #555;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .social-icons i:hover {
+    color: #0077b5;  /* Example color (LinkedIn blue) */
+    transform: scale(1.1);
+  }

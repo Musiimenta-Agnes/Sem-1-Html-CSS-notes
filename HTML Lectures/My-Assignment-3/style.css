@@ -1,0 +1,49 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 15px;
+    width: 20;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 16px 45px;
+    text-decoration: none;
+
+}
+.active {
+    color: orange;
+    font-size: x-large;
+}
+.form-cotainer {
+    background-color: black;
+    float: right;
+}
+
+body {
+    background-image: url('img 1.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-container {
+    margin-top: 20;
+    padding: 10px 15px;
+    font-size: 17px;
+    border: none;
+
+
+}
+.LOGIN FORM{
+    background-color: black;
+    padding: 60;
+    display: flexbox;
+}
+
